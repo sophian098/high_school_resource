@@ -1,0 +1,205 @@
+body{
+    font-family: 'Urbanist';
+    background-color: AliceBlue;
+  }
+  
+  
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    text-align: center;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  #home {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #HSR-logo {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #about {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #resources {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #contact {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #logo {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 4px;
+  }
+  
+  #navbar {
+    border: 15px solid CornflowerBlue;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .title {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title::before {
+    content: "";
+    background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/ns19346-image-kwvyb3bt.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7783abaa0bb41205d93ce108a8f84e20");
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 90%;
+    z-index: -1;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    margin: 10%;
+    font-size: 5em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .button-1,
+  .button-2,
+  .button-3,
+  .button-4 {
+    display: block;
+    background-color: skyblue;
+    padding: 20px;
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 50px;
+    transform: translate(50%);
+    border-radius: 20px;
+    font-size: 1.4em;
+  }
+  
+  .button-1:hover,
+  .button-2:hover,
+  .button-3:hover,
+  .button-4:hover {
+    background-color:cornflowerblue;
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
+  .contribute-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contribute-box {
+    background-color: peachpuff;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contribute-box h3 {
+    font-size: 1.6em;
+  }
+  .contribute-box p strong {
+    font-size: 1.2em;
+  }
+  
+  .contribute-button {
+    display: block;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 20px;
+    transform: translate(50%);
+  }
+  
+  .contribute-button:hover {
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  footer{
+    background-color: SteelBlue;
+    width: 100%;
+    margin-left: 0px;
+    padding:5px;
+  }
+  
+  .about-footer {
+    background-color: LightSteelBlue;
+    width:100%;
+    margin:0;
+    margin-top:20px;
+  }
+  
+  #footer-logo {
+    background-color: LightSteelBlue;
+    width:20%;
+    margin:0;
+    margin-top:20px;
+  
+  }
+  
+  #contribute-footer {
+    background-color: LightSteelBlue;
+    width:53%;
+    margin:0;
+    margin-top:20px;
+  }
+  
+  #contactfooter {
+    background-color: LightSteelBlue;
+    width:80%;
+    margin:0;
+    margin-top:20px;
+  }
+  

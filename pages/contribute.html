@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Ideas: add image to the top (hero image), have images beside each section or at least a box that makes the text structured!-->
+<html lang="en">
+  <head>
+    <title>High school resource</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="../script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <table id="navbar">
+        <tr>
+          <th id="HSR-logo">
+            <img
+              src="../assets/img/hsr_logo.png"
+              id="logo"
+              alt="HSR logo"
+            />
+          </th>
+          <th id="home"><a href="../index.html">Home</a></th>
+          <th id="about"><a href="about.html">About</a></th>
+          <th id="resources"><a href="resources.html">Resources</a></th>
+          <th id="contact"><a href="contact.html">Contact Us</a></th>
+        </tr>
+      </table>
+    </div>
+  
+    
+    <div id="contact-form">
+    <h1>Want to contribute today?</h1>
+  
+    <form>
+            This is a form you must fill out prior to contributing any information to the webpage us so that we can ensure that the information being uploaded is appropriate.
+      <br>
+      <br>
+            <!-- Labels -->
+                <!--This creates readable text within my HTML form -->
+
+            <label for="firstnameBox">Your First name:</label>  <!-- Textboxes -->
+             <!-- This creates a textbox that the user can type information into -->
+      <br><input type="text", id="firstnameBox">
+      <br>
+      <br>
+      <label for="lastnameBox">Your Last name:</label>  <!-- Textboxes -->
+             <!-- This creates a textbox that the user can type information into -->
+            <br><input type="text", id="lastnameBox">
+      <br>
+      <br>
+      <label for="email">Your prefered email?</label>             <!-- Textbox that asks favourite color -->
+      
+             <!-- This creates a textbox that the user can type their favourite color into -->
+      <br>   <input type="text", id="email">
+      <br>
+      <br>
+      <label for="age">How old are you?</label>  <!-- Textbox that asks #siblings -->
+             <!-- This creates a textbox that the user can type their #siblings into -->
+      <br> <input type="text", id="age">
+      <br>
+      <br>
+      <label for="question">What section do you want to add/create changes to?</label>  <!-- Textbox that asks #siblings -->
+             <!-- This creates a textbox that the user can type their #siblings into -->
+      
+      <br>
+      
+      <input type="text", id="question">
+      
+      <br>
+            <br>
+
+
+      <label for="question2">What topic is it under?</label>  <!-- Textbox that asks #siblings -->
+             <!-- This creates a textbox that the user can type their #siblings into -->
+     
+      <br>
+
+
+      <input type="text", id="question">
+      
+      <br>
+            <br>
+
+
+      <label for="question">What would you like to upload (i.e text, images of notes, vidoes, etc)?</label>  <!-- Textbox that asks #siblings -->
+             <!-- This creates a textbox that the user can type their #siblings into -->
+      <br>
+
+      <input type="text", id="question">
+     
+      
+  </form>
+            <!-- Buttons -->
+    <br>
+    <br>
+    <button onClick="buttonIsClicked()">Submit</button>
+    <button onClick="buttonIsClicked()">Clear</button> 
+       </div>
+    
+    <div class="about-footer">
+      <table>
+        <tr>
+          <th id="footer-logo"><img src="../assets/img/hsr_logo.png" id="logo2" alt="HSR logo"/></th>
+          
+      <th id="contribute-footer"><h4>
+        Contribute 
+        </h4>
+          <button>
+      <a href="contribute.html">Contribute Today!</a>
+    </button>
+          </th>
+          <th id="contact-footer"><h4>
+        Contact-Us 
+        </h4>
+           <button>
+      <a href="contact.html">Contact-Us</a>
+    </button>
+          </th>
+        </tr>
+      </table>
+    </div>
+    
+  </body>
+</html>

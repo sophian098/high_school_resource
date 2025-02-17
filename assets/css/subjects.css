@@ -1,0 +1,263 @@
+body{
+    font-family: 'Urbanist';
+    background-color: AliceBlue;
+    margin:0;
+    padding:0;
+  }
+  
+  .title {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title::before {
+    content: "";
+    background-image: url("https://img.freepik.com/premium-vector/school-vector-seamless-pattern-blue-line-art-stationery-doodle-education-background-study_193606-578.jpg");
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+  }
+  
+  table {
+    text-align: center;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  #home {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #HSR-logo {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #about {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #resources {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #contact {
+    width: 20%;
+    height: 100%;
+    background-color: CornflowerBlue;
+    text-align: center;
+    border: solid CornflowerBlue;
+  }
+  
+  #logo {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 4px;
+  }
+  
+  #navbar {
+    border: 15px solid CornflowerBlue;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    margin: 10%;
+    font-size: 5em;
+  }
+  
+  .goal-heading {
+    font-size: 2em;
+    margin: 10px;
+  }
+  
+  .goal-text {
+    font-size: 1.2em;
+  }
+  
+  .goal-img {
+    float: right;
+    margin-right: 7%;
+  }
+  
+  .goal-box {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 7%;
+    padding: 30px;
+    display: inline-block;
+  }
+  /* clearfix for floats */
+  .goal::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* notes/images at top */
+  .notes-block {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .notes-block img {
+    max-width: 100%;
+    max-height: auto;
+    margin: 3%;
+  }
+  
+  .contribute-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contribute-box {
+    background-color: peachpuff;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contribute-box h3 {
+    font-size: 1.6em;
+  }
+  .contribute-box p strong {
+    font-size: 1.2em;
+  }
+  
+  .contribute-button {
+    display: block;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 20px;
+    transform: translate(50%);
+  }
+  
+  .contribute-button:hover {
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  .websites-container {
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  /* websites */
+  .websites {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .box {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding-top: 30px;
+  }
+  
+  .box:hover {
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  .box:active {
+    background-color: rgba(135, 206, 235, 0.2);
+  }
+  
+  .program {
+    border: 1px solid darkblue;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+  }
+  
+  .text {
+    font-size: 0.7em;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* youtube playlists */
+  .videos-block {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .videos {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 3% 6%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .videos:hover {
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
+  
+  .see-more {
+    margin-left: 9%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .see-more:hover {
+    color: black;
+    box-shadow: 0px 0px 10px;
+  }
